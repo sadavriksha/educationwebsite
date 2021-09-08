@@ -1,0 +1,82 @@
+#html{
+  scroll-behavior: smooth;
+  transition: 6s;
+}
+.nav-list{
+    flex-direction: column;
+
+  }
+  .navbar{
+    height: 447px;
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+  }
+  .rightNav{
+    text-align: center;
+  }
+  .box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  #search{
+    width: 100%;
+  }
+  .burger{
+    display: block;
+  }
+  .teacher img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin: 10px 30px;
+    }
+    .member li{
+      padding: 26px 40px;
+      }
+  .h-nav{
+    height: 62px;
+  }
+  .v-class{
+    opacity: 0;
+  }
+  .text-small{
+    text-align: center;
+    padding: 13px;
+  }
+  .text-big{
+    text-align: center;
+  }
+  .buttons{
+
+    text-align: center;
+  }
+  .section{
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  #clients {
+    display: inline;
+   flex-direction: row;
+   height: 420px;
+   width: 20%;
+   margin-bottom: 60px;
+}
+ .clients-item{
+        padding:1px 40px ;
+        margin :1px 18px ;
+    }
+#clients img{
+    height: 110px;
+}
+  .contact{
+
+    text-align: center;
+    width: 100%;
+  }
+  .indo input{
+    width: 305px;
+  }
+  .paras{
+    padding: 2px;
+  }

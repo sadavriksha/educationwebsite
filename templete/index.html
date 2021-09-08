@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block bady %}
+    <section class= "fristsection background"id="home" style="background-image:url({% static 'images/sadav1.jpg' %}) ;">
+        <div class="teacher">
+            <img src={% static 'images/sadav5.jpg' %} alt="teacher1">
+            <img src={% static 'images/sadav6.jpg' %} alt="teacher2">
+            <img src={% static 'images/sadav7.jpg' %} alt="teacher3">
+            <img src={% static 'images/sadav9.jpg' %} alt="teacher4">
+            
+        </div>
+        <div class="member">
+        <li><a href="#dean">dean </a></li>
+        <li><a href="#coordinator">coordinator</a></li>
+        <li><a href="#hod">HOD</a></li>
+        <li><a href="#faclity">faclity</a></li>
+        </div>
+       <div class="box-main">
+           <div class="fristhalf">
+               <p class="text-big">The future of education is here</p>
+               <p class="text-small">Welocome to oue edication sector here.we and our faclity help you there to make your dreem complete here and we also educate you in your direction of aim .our techer help you in complete you syllabus by which you can completw ou deam in your life .you are find most famous education collage here </p>
+               <div class="buttons">
+                   <button class="btn" onclick="friend()">subscribe</button>
+                   <button class="btn" onclick="window.location.href ='http://youtube.com';">watch video</button>
+               </div>
+           </div>
+           <div class="secondhalf">
+               <img src={% static 'images/sadav2.jpg' %} alt="img">
+           </div>
+       </div>
+
+    </section>
+{% endblock bady %}
+    
+   
+
+   
